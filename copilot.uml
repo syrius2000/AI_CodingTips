@@ -1,0 +1,16 @@
+/' 以下は、Qiita記事「VS Code なら Agent で使える MCP/tools は json 触らなくても入れられる」の内容を箇条書きで要約し、PlantUML形式とMermaid形式で図式化したものです '/
+
+
+@startuml
+actor User
+participant "VS Code"
+participant "拡張機能"
+participant "MCP Server"
+
+User -> "VS Code" : 拡張機能をインストール
+"VS Code" -> "拡張機能" : MCPツールを選択
+"拡張機能" -> "MCP Server" : npmパッケージ名で登録
+"MCP Server" -> "VS Code" : mcp.jsonに設定追加
+User -> "VS Code" : MCPツールを利用開始
+@enduml
+

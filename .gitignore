@@ -1,0 +1,52 @@
+# OS固有ファイル
+.DS_Store
+Thumbs.db
+
+# Python関連
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+*.sqlite3
+.ipynb_checkpoints/
+
+# R関連
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# MySQL関連（ログや一時ファイル）
+*.sql~
+*.log
+
+# VS Code
+.vscode/
+
+# Emacs/Vim
+*~
+\#*\#
+.\#*
+*.swp
+*.swo
+*.elc
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# SAS関連（ログや出力ファイル）
+*.lst
+*.log
+*.sas7bdat
+*.sas7bcat
+*.sas7bvew
+
+# Git管理外にしたいファイル
+*.bak
+*.tmp
+*.old
