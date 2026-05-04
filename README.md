@@ -34,6 +34,9 @@ AIに「手足（ツール）」を与えます。
   - `agentic_workflow.md`: 自律的な開発サイクルの回し方
   - `prompt_engineering.md`: 2026年版プロンプトテクニック
   - `mcp_guide.md`: MCPサーバーの活用と設定
+  - `skills.md`: SKILL.md標準による能力拡張 (Skills)
+  - `project_memory.md`: GEMINI.md/MEMORY.mdによる永続的な文脈管理
+  - `hooks.md`: エージェントのライフサイクル制御と自動化 (Hooks)
 - [`/examples`](./examples/): 実践的な設定例とコード
 
 ---
